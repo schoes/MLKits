@@ -1,17 +1,18 @@
 {
-  "name": "knn-tf",
+  "name": "logistic_regression",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@tensorflow/tfjs": "1.7.0",
     "@tensorflow/tfjs-node": "^1.7.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.11",
+    "memoize": "^0.1.1",
+    "mnist-data": "^1.2.6",
+    "node-remote-plot": "^1.2.0",
     "prettier": "^2.0.5",
     "shuffle-seed": "^1.1.6"
   }
